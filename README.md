@@ -1,3 +1,3 @@
-# angular-ivy-yufvwh
+yarn install
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-yufvwh)
+yarn start 
