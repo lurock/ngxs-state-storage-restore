@@ -1,10 +1,7 @@
 import { Component, OnInit, VERSION } from '@angular/core';
 import {
   Select,
-  Store,
-  UpdateState,
-  Actions,
-  ofActionCompleted,
+  Store
 } from '@ngxs/store';
 import { Observable } from 'rxjs';
 import { CustomerActions } from './customer-actions';
@@ -20,11 +17,7 @@ export class AppComponent {
 
   state: string;
 
-  constructor(private store: Store, actions: Actions) {
-    actions.pipe(ofActionCompleted(UpdateState)).subscribe(() => {
-      console.log('update state fired');
-      this.state = JSON.stringify(this.store.snapshot());
-    });
+  constructor(private store: Store) {
   }
 
   save() {
