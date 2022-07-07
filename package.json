@@ -19,8 +19,8 @@
     "@angular/platform-browser": "14.0.0",
     "@angular/platform-browser-dynamic": "14.0.0",
     "@angular/router": "14.0.0",
-    "@ngxs/storage-plugin": "3.7.4",
-    "@ngxs/store": "3.7.4",
+    "@ngxs/storage-plugin": "3.7.3",
+    "@ngxs/store": "3.7.3",
     "rxjs": "7.5.5",
     "tslib": "2.4.0",
     "zone.js": "0.11.6"
@@ -37,6 +37,6 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2",
-    "@ngxs/devtools-plugin": "3.7.4"
+    "@ngxs/devtools-plugin": "3.7.3"
   }
 }
